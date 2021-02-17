@@ -27,12 +27,13 @@ private double acumulador;
 	/**
 	 * Contructor sin parametros de la clase
 	 */
+	
 	public Multiplicacion() {
 		super();
 	}
 
 	/**
-	 * Método que realiza la multiplicación de dos numeros reales y que devuelve otro número real.
+	 * Método que realiza la multiplicación de dos números reales y que devuelve otro número real.
 	 *<br>
 	 * Acepta números negativos en ambos reales devolviendo negativo si solo
 	 * uno de los parametros es negativo y el otro positivo, o si ambos son negativos devuelve positivo.
@@ -49,7 +50,7 @@ private double acumulador;
 	 * un parametro no deseado
 	 * 
 	 */
-	public double multiplicar(double parametro1, double parametro2) {
+	public double multiplicarReal(double parametro1, double parametro2) {
 		double resultado = 0;
 		
 		return resultado;
@@ -57,7 +58,7 @@ private double acumulador;
 	
 	
 	/**
-	 * Método que realiza la multiplicación de dos numeros entero y que devuelve otro número real.
+	 * Método que realiza la multiplicación de dos numeros entero y que devuelve otro número entero.
 	 *<br>
 	 *Acepta números negativos en ambos enteros devolviendo negativo si solo
 	 * uno de los parametros es negativo y el otro positivo, o si ambos son negativos devuelve positivo.
@@ -71,20 +72,20 @@ private double acumulador;
 	 * @param parametro2 -> parametro que será multiplicado por el otro parametro1.
 	 * @return devuelve la multiplicación de ambos parametros.
 	 * @throws IllegalArgumentException se generará está excepción cuando se introduzca
-	 * un parametro no deseado
+	 * un parametro no deseado.
 	 * 
 	 */
 	
-	public long multiplicacion(int parametro1, int parametro2) {
+	public long multiplicarEntero(int parametro1, int parametro2) {
 		long resultado = 0;
 		
 		return resultado;
 	}
 
 	/**
-	 * Método que realiza la multiplicación de tres numeros reales y que devuelve otro número real.
+	 * Método que realiza la multiplicación de tres números reales y que devuelve otro número real.
 	 *<br>
-	 *Acepta números negativos en lso numeros devolviendo negativo si solo
+	 *Acepta números negativos en los números devolviendo negativo si solo
 	 * uno de los parametros es negativo o si los tres números son negativos, o si ambos son negativos devuelve positivo.
 	 *<br>
 	 * Si uno de los números es 0, devolvera siempre un 0.
